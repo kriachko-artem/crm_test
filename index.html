@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script defer src="scripts/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <aside class="sidebar closed">
+        <div class="logo">
+            <a href="index.html" class="logo__link">
+                    <span class="logo__icon">
+                        <img src="./assets/img/logo.png" alt="Dashboard" class="logo__image">
+                    </span>
+                <div class="logo__label">
+                    <p class="logo__text">Dashboard</p>
+                    <span class="logo__version">v.01</span>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li class="sidebar__nav-item" id="dashboard">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Dashboard
+                            </span>
+                    </a>
+                </li>
+                <li class="sidebar__nav-item" id="product">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Product
+                            </span>
+                    </a>
+                </li>
+                <li class="sidebar__nav-item active" id="customers">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Customers
+                            </span>
+                    </a>
+                </li>
+                <li class="sidebar__nav-item" id="income">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Income
+                            </span>
+                    </a>
+                </li>
+                <li class="sidebar__nav-item" id="promote">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Promote
+                            </span>
+                    </a>
+                </li>
+                <li class="sidebar__nav-item" id="help">
+                    <a href="#">
+                            <span class="icon">
+                            </span>
+                        <span class="label">
+                                Help
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="user">
+            <div class="user__photo-holder">
+                <img src="./assets/img/user.png" alt="Photo">
+            </div>
+            <div class="user__info">
+                <span class="user__name">Evano</span>
+                <span class="user__position">Project Manager</span>
+            </div>
+        </div>
+        <div id="sidebar__open-close">
+        </div>
+    </aside>
+    <div class="window">
+        <header>
+            <div class="window__greatings">
+                Hello Evano 👋🏼,
+            </div>
+        </header>
+        <main class="main">
+            <section class="customers">
+                <div class="customers__table-header">
+                    <div class="table-name">
+                        <h2 class="table-name__category">All Customers</h2>
+                        <h4 class="table-name__subcategory">Active Members</h4>
+                    </div>
+                    <div class="customers__search">
+                        <span class="customers__search__icon"></span>
+                        <input class="customers__search__input" type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="customers__table-container">
+                    <table class="customers__table">
+                        <thead>
+                        <tr>
+                            <th class="customers__table-header--name customer__name">Customer Name</th>
+                            <th class="customers__table-header--company customer__company">Company</th>
+                            <th class="customers__table-header--phone customer__phone">Phone Number</th>
+                            <th class="customers__table-header--email customer__email">Email</th>
+                            <th class="customers__table-header--country customer__country">Country</th>
+                            <th class="customers__table-header--status customer__status">Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="customers__table-footer">
+                    <div class="table-footer__total">Showing data 1 to 8 of 256K entries</div>
+                    <ul class="table-footer__paging">
+                        <li class="paging__item arrow prev"></li>
+                        <li class="paging__item active">1</li>
+                        <li class="paging__item">2</li>
+                        <li class="paging__item">3</li>
+                        <li class="paging__item">4</li>
+                        <li class="paging__item">40</li>
+                        <li class="paging__item arrow next"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+</body>
+</html>
