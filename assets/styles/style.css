@@ -362,7 +362,7 @@ table.customers__table td.customer__status {
     justify-content: flex-end;
 }
 
-table.customers__table thead {
+table.customers__table thead tr{
     height: 35px;
 }
 
@@ -525,7 +525,8 @@ table.customers__table tbody .customer__status .inactive {
     .sidebar {
         position: fixed;
         width: 100%;
-        height: 100dvh;
+        height: 100lvh;
+        padding-bottom: 100px;
         z-index: 5;
         background-color: #fff;
         -webkit-transition: 0.3s ease-in-out;
@@ -594,7 +595,7 @@ table.customers__table tbody .customer__status .inactive {
     }
 
     .window {
-        padding: 30px 0;
+        padding: 30px 0 0;
         width: 100%;
     }
 
@@ -604,7 +605,7 @@ table.customers__table tbody .customer__status .inactive {
     }
 
     .customers {
-        padding: 15px 0;
+        padding: 30px 0;
         -webkit-border-radius: unset;
         -moz-border-radius: unset;
         border-radius: unset;
